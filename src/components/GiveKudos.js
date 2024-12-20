@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 const GiveKudos = () => {
     const [form, setForm] = useState({ sender: "", recipient: "", badge: "", message: "" });
     const [users, setUsers] = useState([]);
+    // eslint-disable-next-line no-unused-vars
     const [badges, setBadges] = useState(["Great Work", "Team Player", "Innovator", "Problem Solver"]);
     const [isFormValid, setIsFormValid] = useState(false); // To track form validity
 
